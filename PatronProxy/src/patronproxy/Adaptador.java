@@ -9,11 +9,10 @@ package patronproxy;
  *
  * @author estudiantes
  */
-public class Adaptador implements InterfazOperacion{
+public class Adaptador {
     
     ObjetoExterior oe = new ObjetoExterior();
 
-    @Override
     public void Operacion() {
         oe.doSometing();
     }

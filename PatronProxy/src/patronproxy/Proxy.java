@@ -12,7 +12,7 @@ package patronproxy;
 public class Proxy implements InterfazOperacion{
     
     InterfazOperacion io;
-    InterfazOperacion oe;
+    Adaptador oe;
     
     @Override
     public void Operacion(){
